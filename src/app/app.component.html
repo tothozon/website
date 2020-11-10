@@ -1,5 +1,10 @@
-<div class="herosection" fxLayout="row" fxLayoutAlign="center start">
-  <div class="inner_left" fxFlex="60">
+<div
+  class="herosection"
+  fxLayout="row"
+  fxLayout.lt-md="column"
+  fxLayoutAlign="center start"
+>
+  <div class="inner_left" fxFlex="60" fxFlex.sm="70">
     <p></p>
     <div class="herotext">
       <h1 class="mat-display-2">
@@ -17,35 +22,37 @@
     </div>
   </div>
 
-  <div class="inner_right" fxFlex="60">
+  <div class="inner_right" fxFlex="40">
     <div class="jobb_cim">
       <h1 class="mat-display-3">ÓZONOS</h1>
       <h3 class="mat-h3">fertőtlenítés a nap minden szakaszában!</h3>
-      <button
+      <!-- <button
         type="button"
         mat-raised-button
         color="primary"
         class="mat-elevation-z10"
+        (click)="scroll(panelek)"
       >
         Részletek
-      </button>
+      </button> -->
     </div>
   </div>
 </div>
 
-<div
+<!-- <div
+  #panelek
   class="panelek"
-  fxLayout="row"
+  fxLayout="row wrap"
   fxLayoutAlign="center start"
   fxLayoutGap="20px"
 >
-  <mat-card fxFlex="20">
+  <mat-card fxFlex="400px">
     <div class="p1">1</div>
   </mat-card>
-  <mat-card fxFlex="20">
+  <mat-card fxFlex="400px">
     <div class="p2">2</div>
   </mat-card>
-  <mat-card fxFlex="20">
+  <mat-card fxFlex="400px">
     <div class="p3">3</div>
   </mat-card>
-</div>
+</div> -->

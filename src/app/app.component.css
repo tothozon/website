@@ -2,7 +2,8 @@
   background-image: url('/assets/tothozon-hatter-big.jpg');
   margin: 0;
   padding: 0;
-  min-height:calc(max(90vh, 500px));
+  height:100vh;
+  /* min-height:calc(max(90vh, 500px)); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -49,6 +50,9 @@ p {
 .panelek {
   margin-top: 10vh;
 }
+
+/*
 .panelek div {
-  /* border: 1px solid green; */
+  border: 1px solid green;
 }
+*/
