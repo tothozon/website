@@ -23,6 +23,7 @@
   font-weight: 700;
   font-size: 70px;
   margin-top:10vh;
+  margin-bottom:10px;
 }
 
 .herotext {
@@ -45,3 +46,9 @@ p {
   min-height: 2em;
 }
 
+.panelek {
+  margin-top: 10vh;
+}
+.panelek div {
+  /* border: 1px solid green; */
+}
