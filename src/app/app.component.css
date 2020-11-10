@@ -9,9 +9,22 @@
   position: relative;
 }
 
+/*
 .inner_left, .inner_right {
   border: 1px solid green;
 }
+ */
+
+ .inner_right {
+  text-align: center;
+  margin-top:20vh;
+}
+.inner_right h1 {
+  font-weight: 700;
+  font-size: 70px;
+  margin-top:10vh;
+}
+
 .herotext {
   margin-left: 3em;
 }
